@@ -9,5 +9,5 @@ for module in ALL_MODULES:
 
 def run():
     LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
-    LOGGER.info("Starting bot...")
+    LOGGER.info("Starting bot ...")
     bot.run_polling()
